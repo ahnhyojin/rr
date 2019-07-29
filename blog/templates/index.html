@@ -1,0 +1,131 @@
+
+{% load staticfiles %}
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <style>
+    @font-face{ 
+        font-family: 'TmonMonsori';
+        src: url(C:/Users/정양호!/Desktop/Cfo4X30rXaUSHA_jNr25MV_6sS4/TmonFont/TmonMonsori.ttf) format('truetype');
+    }
+    
+    body{
+    background-image:url("{% static 'background.jpg' %}");
+    background-size:cover;
+    background-repeat: no-repeat;}
+
+        .firsttext{ 
+            text-align:center;
+            font-size: 100px;  
+            font-family:'TmonMonsori'; 
+            color: white;
+           position: absolute;
+           left: 34%;
+           top: 20%;
+           font-weight: bold;
+        }
+
+        /* .form-area{
+            position: absolute;
+            left:34%;
+            top:50%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+            height: 10px;
+        } */
+
+        .searchfirst{
+            position: absolute;
+            left: 20%;
+            top: 70%;
+            border:none;
+            background-color: white;
+            outline: none;
+            width: 100px;
+            height: 35px;
+            border-radius: 10px;
+       
+        }
+        .searchfirst input[type=text]{
+            border-radius: 10px;
+            border: none;
+            width: 1000px;
+            height: 60px;
+            color:black;
+            font-size:25px;
+            display: 16px;
+
+        }
+        .searchfirst button[type=submit]{
+            position: absolute;
+            left: 900%;
+            top: 0%;
+            font-family:'TmonMonsori'; 
+            font-size: 20px;
+            color: white;
+            width: 100px;
+            height: 60px;
+        background-color: blue;
+        border-top-left-radius:  5px;
+        border-bottom-left-radius: 5px;
+                }
+
+    ::placeholder{
+        font-size:20px;
+        position: absolute;
+        left: 30%;
+    }
+    
+    </style>
+    
+    
+    </head>
+    
+    
+    
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">adopt <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Features</a>
+                <a class="nav-item nav-link" href="#">Pricing</a>
+                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </div>
+            </div>
+          </nav>
+
+          <div>
+
+
+
+          </div>
+    
+    <div class= "homefirst" >
+        </div>
+             <div class = "firsttext"> 댕댕아 냥냥아 <br> 꽃길만 걷자
+             </div>
+
+            <div class="searchfirst">
+                <form action= "form-area">
+                    <input type = "text" name="searchform" id= "" placeholder="댕댕이를 찾아주세요">
+                    <button type="submit" name="searchsubmit">검색</button>
+                </form>
+
+            </div>
+
+            <div>
+
+            </div>
+
+    </body>
+    
+    
