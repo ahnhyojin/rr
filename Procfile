@@ -1,0 +1,1 @@
+web: gunicorn adopt.wsgi --log-file -
